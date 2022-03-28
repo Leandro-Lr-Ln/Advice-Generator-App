@@ -22,7 +22,14 @@
             <p class="card-text">
                 "It is easy to sit up and take notice, what's difficult is getting up and taking action."
             </p>
-            <img class="card-img" src="images/pattern-divider-desktop.svg" alt="divider">
+            <picture>
+                <source srcset="images/pattern-divider-mobile.svg" media="(max-width: 768px)">
+
+                <source srcset="
+                images/pattern-divider-desktop.svg" media="(min-width: 769px)">
+
+                <img class="card-img" src="images/pattern-divider-mobile.svg" alt="divider">
+            </picture>
 
             <div class="card-footer">
                 <div class="card-footer-container" id="newAdvice">
