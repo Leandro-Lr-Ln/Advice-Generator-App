@@ -41,7 +41,7 @@ body {
   background: var(--dark-grayish-Blue);
   border-radius: 1rem;
   text-align: center;
-  max-width: 410px;
+  max-width: 430px;
   -webkit-box-shadow: 2px 2px 4px var(--grayish-blue);
           box-shadow: 2px 2px 4px var(--grayish-blue);
   width: 80%;
@@ -51,7 +51,7 @@ body {
   color: var(--neon-green);
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-top: 3rem;
 }
 
@@ -62,6 +62,7 @@ body {
   width: 85%;
   margin: 0 auto;
   margin-top: 3rem;
+  line-height: 3rem;
 }
 
 .card-img {
@@ -80,9 +81,16 @@ body {
   height: 50px;
   margin: 0 auto;
   margin-bottom: -25px;
+  cursor: pointer;
 }
 
 .card-footer-container-img {
-  margin-top: 12.5px;
+  margin-top: 15.5px;
+  width: 20px;
+}
+
+.card-footer-container:hover {
+  -webkit-box-shadow: 0 0 30px 0 #52ffa8;
+          box-shadow: 0 0 30px 0 #52ffa8;
 }
 /*# sourceMappingURL=styles.css.map */
