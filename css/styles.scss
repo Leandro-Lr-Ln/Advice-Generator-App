@@ -28,9 +28,9 @@ body{
     background: var(--dark-grayish-Blue);
     border-radius: 1rem;
     text-align: center;
-    max-width: 430px;
+    max-width: 482px;
+    width: 482px;
     box-shadow: 2px 2px 4px var(--grayish-blue);
-    width: 80%;
 
     &-title{
         color: var(--neon-green);
@@ -41,17 +41,17 @@ body{
     }
 
     &-text{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         color: var(--light-cyan);
         font-weight: 600;
-        width: 85%;
         margin: 0 auto;
+        width: 80%;
         margin-top: 3rem;
-        line-height: 3rem;
+        line-height: 3.5rem;
     }
     &-img{
-        width: 85%;
         margin-top: 3rem;
+        width: 80%;
     }
 
     &-footer{
