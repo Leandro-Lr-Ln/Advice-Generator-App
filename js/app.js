@@ -22,7 +22,7 @@ const showAdvice = (advice) => {
     const template = document.getElementById('templateAdvice').content;
     const templateClone = template.cloneNode(true);
     const templateFragment = document.createDocumentFragment();
-    templateClone.getElementById('idAdvice').textContent = `#${advice.id}`
+    templateClone.getElementById('idAdvice').textContent = `${advice.id}`
     templateClone.getElementById('textAdvice').textContent = advice.text;
     templateFragment.appendChild(templateClone);
     container.appendChild(templateFragment)
